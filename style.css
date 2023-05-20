@@ -8,6 +8,7 @@
 body{
     width: 1440px;
     height: 1024px;
+    background: #F3F5FC;
 }
 
 header{
@@ -41,6 +42,7 @@ main{
     line-height: 150%;
     color:#0A3871;
     text-transform: lowercase;
+    background: #F3F5FC;
 }
 ::placeholder{
     color: #0A3871;
@@ -84,10 +86,14 @@ main{
 
 .mensaje{
     position: absolute;
-    width: 400px;
-    height: 944px;
+    width: 336px;
+    height: 781px;
     left: 1000px;
     top: 40px;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 131px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
@@ -98,6 +104,9 @@ main{
     font-size: 24px;
     line-height: 150%;
     color: #495057;
+}
+.mensaje:focus{
+    outline: none;
 }
 
 .btn-copiar{
