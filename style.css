@@ -34,7 +34,7 @@ main{
 .text-area{
     position: absolute;
     width: 680px;
-    height: 288px;
+    height: 650px;
     left: 240px;
     top: 168px;
     border: none;
@@ -43,6 +43,7 @@ main{
     color:#0A3871;
     text-transform: lowercase;
     background: #F3F5FC;
+    resize: none;
 }
 ::placeholder{
     color: #0A3871;
@@ -95,6 +96,9 @@ main{
     padding-right: 32px;
     padding-bottom: 131px;
     background: #FFFFFF;
+    background-image: url(./imagenes/Munheco.png);
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     border: none;
@@ -104,10 +108,16 @@ main{
     font-size: 24px;
     line-height: 150%;
     color: #495057;
+    resize: none;
 }
 .mensaje:focus{
     outline: none;
 }
+.mensaje::placeholder{
+    text-align: center;
+    padding-top: 600px;
+}
+
 
 .btn-copiar{
     position: absolute;
