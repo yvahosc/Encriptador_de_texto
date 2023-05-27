@@ -62,11 +62,7 @@ main{
 }
 
 .botones{
-    position: absolute;
-    width: 680px;
-    height: 67px;
-    left: 240px;
-    top: 885px;
+    margin: auto;
 }
 
 .botones button, .btn-copiar{

@@ -1,0 +1,182 @@
+html {   
+    min-width: 320px;   
+    max-width: 1400px; 
+}
+
+html, body{
+    min-height: 900px;
+    height:100%;
+}
+
+body{
+    padding: 5% 10% 0% 10%;
+    background: #F3F5FC;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.input{
+    width: 65%;
+    height: 100%;    
+}
+
+.informacion{
+    margin: 0;
+}
+
+.botones{
+    margin-left: auto;
+}
+
+.botones button{
+    width: 35%;
+    height: 50%;
+}
+
+.btn-encriptar{
+    margin-right: 10%;
+}
+
+.show{
+    width: 35%;
+    height: 100%;
+}
+
+.text-area{
+    width: 98%;
+    height: 80%;
+    border: none;
+    font-size: 32px;
+    line-height: 150%;
+    color:#0A3871;
+    text-transform: lowercase;
+    background: #F3F5FC;
+    resize: none;
+}
+::placeholder{
+    color: #0A3871;
+}
+.text-area:focus{
+    outline: none;
+}
+
+div {
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-desencriptar{
+    color: #0A3871;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    color: white;
+}
+
+.mensaje{
+    width: 100%;
+    height: 85%;
+    resize: none;
+    padding: 5% 0% 0% 0%;
+    background: #FFFFFF;
+    background-image: url(./imagenes/Munheco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    resize: none;
+}
+.mensaje:focus{
+    outline: none;
+}
+.mensaje::placeholder{
+    text-align: center;
+}
+
+.btn-copiar{
+    width: 70%;
+    height: 50%;
+    color: #0A3871;
+}
+
+.botones button, .btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+footer{
+    
+    height: 15%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+
+    html, body{
+        min-height: 1000px;
+        height:100%;
+    }
+
+    main {
+        display: block;
+    }
+
+    .input{
+        width: 100%;
+        height: 55%;
+        margin-bottom: 5%;
+    }
+
+    .botones button{
+        height: 90%;
+    }
+
+    .show{
+        width: 100%;
+        height: 40%;
+    }
+
+    .mensaje{
+        background-image: none;
+        height: 75%;
+        margin-bottom: 4%;
+    }
+
+    .btn-copiar{
+        width: 60%;
+        height: 100%;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
