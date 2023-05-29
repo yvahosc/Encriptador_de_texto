@@ -40,6 +40,7 @@ main {
 .botones button{
     width: 35%;
     height: 50%;
+    cursor: pointer
 }
 
 .btn-encriptar{
@@ -91,7 +92,7 @@ div {
     width: 100%;
     height: 85%;
     resize: none;
-    padding: 5% 0% 0% 0%;
+    padding: 5% 5% 0% 5%;
     background: #FFFFFF;
     background-image: url(./imagenes/Munheco.png);
     background-repeat: no-repeat;
@@ -118,6 +119,7 @@ div {
     width: 70%;
     height: 50%;
     color: #0A3871;
+    cursor: pointer
 }
 
 .botones button, .btn-copiar{
