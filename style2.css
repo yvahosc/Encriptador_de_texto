@@ -166,6 +166,7 @@ footer{
 
     .mensaje{
         background-image: none;
+        width: 90%;
         height: 75%;
         margin-bottom: 4%;
     }
